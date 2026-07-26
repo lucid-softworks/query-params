@@ -4,6 +4,8 @@ Deterministic query-parameter parsing and serialization built on the platform
 `URLSearchParams`.
 
 ```ts
+import { stringifyQueryParameters } from "@lucid-softworks/query-params";
+
 stringifyQueryParameters({ tag: ["js", "ts"], page: 2 });
 // "page=2&tag=js&tag=ts"
 ```
